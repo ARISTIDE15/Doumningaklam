@@ -1,0 +1,138 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: "Raleway",sans-serif;
+
+}
+img{
+	height: 150px;
+	width: 150px;
+	margin-left: -45px;
+	margin-top: -20px;
+
+
+}
+header{
+	background: url(image_fond.jpg);
+	background-position: center;
+  height: 80vh;
+	background-size: cover;
+	color:white;
+	text-align: center;
+	}
+header nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	
+}
+header nav a{
+	 text-decoration: none;
+	 margin-right: 10px;
+	 color: blue;
+	 font-size: 20px;
+	 margin-left: 30px;
+
+
+}
+header nav a:hover{
+	color: red;
+	border-bottom: 1px solid yellow;
+}
+ h2{
+	color: yellow;
+    font-size: 25px;
+    text-align: center;
+    margin-top:-1px;
+    margin-left: -100px;
+    background-clip: text;
+
+}
+.premiere-presentation{
+	background-color: #222f3e;
+	color: white;
+	padding: 30px;
+	display: flex;
+}
+.premiere-presentation .gauche{
+	height: 60%;
+	margin: 2px;
+	margin-right: 60px;
+
+}
+@media screen and(max-width: 810px){
+
+.premiere-presentation .gauche{
+	width: 100%;
+
+   }
+        }
+        .premiere-presentation .droite{
+        	display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+        	height: 40px
+        	width:40px;
+        }
+      ul{
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 1px;
+    border: 1px solid transparent;
+    border-radius:5px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 1px 2px;
+}
+ul li{
+	  background: blue;
+        color:yellow;
+         margin: 5px;
+         padding: -90px -50px;
+          border-radius:10px;
+          text-align: center;
+      }
+     
+p{
+	margin-left: -30px;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+.deuxieme-presentation p{
+	margin-left: -30px;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-left: -1px;
+
+}
+.deuxieme-presentation.droite.ulfb{
+	margin-left: -200px;
+
+}
+.deuxieme-presentation{
+	background-color: green;
+	color: white;
+	padding: 40px;
+	display: flex;
+	}
+	h1{
+		margin-top: -35px;
+		margin-left: -28px;
+	}
+	.deuxieme-presentation.droite {
+		display: flex;
+		padding: 20px;
+		margin: 30px;
+		border: px;
+		margin-right: 90px;
+		margin-top: 70px;
+		margin-left: 20px;
+
+	}
